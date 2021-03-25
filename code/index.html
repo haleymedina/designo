@@ -15,12 +15,13 @@
 <body>
 
   <header class="header">
-    <nav class="flex flex-jc-sb flex-ai-c">
+    <div class="overlay has-fade"></div>
+    <nav class="container flex flex-jc-sb flex-ai-c">
       <a href="/" class="header__logo">
         <img src="assets/shared/desktop/logo-dark.png" alt="Designo">
       </a>
 
-      <a href="#" class="header__menu hide-for-desktop">
+      <a id="btnHamburger" href="#" class="header__toggle open hide-for-desktop">
         <span></span>
         <span></span>
         <span></span>
@@ -32,9 +33,15 @@
         <a href="contact.html">Contact</a>
       </div>
     </nav>
+
+    <div class="header__menu has-fade">
+      <a href="about.html">Our Company</a>
+      <a href="locations.html">Locations</a>
+      <a href="contact.html">Contact</a>
+    </div>
   </header>
 
-  <!--
+
 
   Award-winning custom designs and digital branding solutions
 
@@ -59,7 +66,7 @@
   Resourceful
   Everything that we do has a strategic purpose. We use an agile approach in all of our projects and value customer
   collaboration. It guarantees superior results that fulfill our clients’ needs.
-
+  <!--
   Friendly
   We are a group of enthusiastic folks who know how to put people first. Our success depends on our customers, and we
   strive to give them the best experience a company can provide.
